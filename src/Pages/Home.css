@@ -233,6 +233,7 @@ text-transform: uppercase;
         justify-content: center;
         flex-direction: column-reverse;
     }
+    
     .buttons{
         flex-direction: column;
     }
@@ -285,6 +286,40 @@ text-transform: uppercase;
     .illustration img{
         width: 300px;
     }
+    
 
 
+}
+@media (max-Height: 800px) {
+    
+    .homeContainer h4{
+        font-size: 12px;
+    }
+    .homeContainer h2{
+        font-size: 36px;
+    }
+    .homeContainer p{
+        font-size: 11px;
+    }
+    .illustration img{
+        width: 250px;
+    }
+}
+@media (max-Height: 700px) {
+    
+    .homeContainer h4{
+        font-size: 10px;
+    }
+    .homeContainer h2{
+        font-size: 30px;
+    }
+    .homeContainer p{
+        font-size: 11px;
+    }
+    .illustration img{
+        width: 220px;
+    }
+    .buttons{
+        gap: 10px;
+    }
 }
