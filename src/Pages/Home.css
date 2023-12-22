@@ -16,12 +16,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;   
+    animation: fade 1s ease-in-out ;
+
 }
 .description{
     width: 50%;
 }
 .illustration{
     width: 40%;
+    animation: balanco 1s ease-in-out infinite alternate;
 }
 .homeContainer h4{
 color: white;
@@ -234,6 +237,8 @@ text-transform: uppercase;
         flex-direction: column-reverse;
     }
     
+
+    
     .buttons{
         flex-direction: column;
     }
@@ -321,5 +326,26 @@ text-transform: uppercase;
     }
     .buttons{
         gap: 10px;
+    }
+}
+
+@keyframes fade {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
+@keyframes balanco {
+    0%{
+        transform: translateY(14px);
+    }
+    100%{
+        transform: translateY(-15px);
+
     }
 }
