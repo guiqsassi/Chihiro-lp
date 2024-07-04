@@ -1,4 +1,4 @@
-![image](https://github.com/guiqsassi/Chihiro-lp/assets/106497090/deb181ae-5f14-4ecd-aeef-5e7255a636ae)![image](https://github.com/guiqsassi/Chihiro-lp/assets/106497090/0fb7aecc-125d-49f2-810a-fa82fa6f8888)![image](https://github.com/guiqsassi/Chihiro-lp/assets/106497090/530b6233-f7c2-4bac-bb24-92b3f8b21867)<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a id="readme-top"></a>
 
 
@@ -6,7 +6,7 @@
 <br />
 <div align="center">
 
-  <img src="src/assets/logo.png" width="80" height="80"/>
+  <img src="src/assets/logo.png" height="80"/>
   <h3 align="center">Landing Page Chihiro</h3>
 
   <p align="center">
